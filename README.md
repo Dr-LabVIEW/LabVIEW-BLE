@@ -1,7 +1,6 @@
 # LabVIEW-BLE
 
-Products and Environment 
-To download NI software, including the products shown below, visit ni.com/downloads.
+Products and Environment
 
 Hardware
 RF|Wireless
@@ -21,9 +20,11 @@ C Sharp
 LabVIEW 2020
 
 Description
-This example demonstrate on how to use the windows 10 BLE native library to communicate with BLE devices (Smart watch, bulb or any device which support BLE). Developed the DLL to interact with windows 10 BLE library in C# platform and integrated the dll into LabVIEW by using .Net constructor node.
+This example demonstrate on how to use the windows 10 BLE native library to communicate with BLE devices (Smart watch, bulb or any device which support BLE). This does not need any BLE dongle to communicate with BLE devices. It uses the windows 10 bluetooth stack and its native library to communicate with BLE devices. 
 
- Here demonstrates usage of the Bluetooth Generic Attribute (GATT) Client APIs for Universal Windows Platform (UWP), along with sample code for common GATT client tasks:
+Developed the DLL to interact with windows 10 BLE library in C# platform and integrated the dll into LabVIEW by using .Net constructor node.
+
+Here demonstrates usage of the Bluetooth Generic Attribute (GATT) Client APIs for Universal Windows Platform (UWP), along with sample code for common GATT client tasks:
 
 Query for nearby devices
 Connect to device
